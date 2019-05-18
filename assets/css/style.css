@@ -95,8 +95,8 @@ p{
     line-height: 2;
 }
 
-#aboutme{
-    border-bottom: 1px solid #cccccc ;
+.heading2{
+    border-bottom: 2px solid #cccccc ;
     margin: 20px 20px 0px 20px;
     padding-top: 10px;
     color:#4aaaa5;
@@ -114,3 +114,44 @@ footer{
     width: 100%;
 }
 
+form{
+    margin:20px 20px 20px 20px;
+    max-width: 920px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+.form{
+    max-width: 950px;    
+}
+input, textarea{
+    color: #777777;
+    padding: 5px;
+    width: 100%;
+    border: #dfdfdf solid 0.5px;
+    margin-top: 8px;
+    
+}
+
+.formfill{
+    margin-bottom: 10px;
+}
+
+#button{
+    max-width: 100px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+#button:hover {
+    background-color: #091d1c;
+  }
+
+textarea{
+    height: 160px;
+}
