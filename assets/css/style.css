@@ -12,6 +12,7 @@ header{
     top:0px;
     position: fixed;
     width:100%;
+    z-index: 2;
 }
 .main-header{
     max-width: 960px;
@@ -154,4 +155,60 @@ input, textarea{
 
 textarea{
     height: 160px;
+}
+
+.container-1{
+    width: 280px;
+    padding:20px 0px 0 20px;
+    float: left;
+    
+}
+
+.enclosed-container{
+    height: 980px;
+}
+
+#PF1, #PF2, #PF3, #PF4, #PF5{
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+.PFText{
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: absolute;
+    padding-top: 20px;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    height: 40px;
+
+    
+  
+
+
+}
+
+#PF1{
+    background-image: url(../../assets/images/PF1.jpg);
+}
+
+#PF2{
+    background-image: url(../../assets/images/PF2.jpg);
+}
+
+#PF3{
+    background-image: url(../../assets/images/PF3.jpg);
+}
+
+#PF4{
+    background-image: url(../../assets/images/PF4.jpg);
+}
+
+#PF5{
+    background-image: url(../../assets/images/PF5.jpg);
 }
